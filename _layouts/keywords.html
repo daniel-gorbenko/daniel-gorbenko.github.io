@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<main>
+	<div class="container">
+		<div class="inner">
+			<h1 class="page-h1">Записи, разбитые по ключевым словам.</h1>
+
+			{% assign sorted_tags = site.tags | sort %}
+			{% for tag in sorted_tags %}
+
+			{% assign tag_name = tag[0] %}
+			
+			{% assign posts = tag[1] | sort %}
+
+			{% if posts != empty %}
+			<h2 class="page-h2" id="{{tag_name | uri_escape | downcase}}"><a href="#{{tag_name | uri_escape | downcase}}">{{tag_name}}</a></h2>
+
+			<ul class="list_posts">
+			{% for post in posts %}
+				<li>
+					<span class="list_posts-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+					<span class="list_posts-delimeter">-</span>
+					<a class="list_posts-link" href="{{ post.url }}">{{ post.title }}</a>
+				</li>
+			{% endfor %}	
+			</ul>
+			{% endif %}
+
+			{% endfor %}
+			
+		</div>
+	</div>
+</main>
