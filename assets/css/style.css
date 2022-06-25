@@ -213,6 +213,23 @@ ul.list_posts li {
 	color: #70757A;
 }
 
+a[target="_blank"] {
+	display: inline-block;
+}
+
+a[target="_blank"]::after {
+	background-color: #696969;
+	content: "";
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	margin-left: 5px;
+	-webkit-mask-image: url(/assets/img/external-link-icon.svg);
+	mask-image: url(/assets/img/external-link-icon.svg);
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
+
 .article p {
 	margin-top: 16px;
 }
@@ -242,6 +259,14 @@ ul.list_posts li {
 
 .article ol li {
 	list-style-type: decimal;
+}
+
+.article ol li > ol {
+	margin-top: 0;
+}
+
+.article ol li > ol li {
+	list-style-type: lower-roman;
 }
 
 .article code {

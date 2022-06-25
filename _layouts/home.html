@@ -22,11 +22,13 @@ layout: default
 			<h2 class="page-h2">Внешние ссылки</h2>
 
 			<ul class="list_posts">
+			{% for external in site.data.external_posts %}
 				<li>
-					<span class="list_posts-date">01.01.0001</span>
+					<span class="list_posts-date">{{ external.date | date: "%d.%m.%Y" }}</span>
 					<span class="list_posts-delimeter">-</span>
-					<a class="list_posts-link" href="#">У меня пока нет выступлений на конференциях и т.п.</a>
+					<a target="_blank" class="list_posts-link" href="{{ external.url }}">{{ external.name }}</a>
 				</li>
+			{% endfor %}
 			</ul>
 			
 		</div>
