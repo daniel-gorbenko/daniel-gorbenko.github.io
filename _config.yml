@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 destination: ./_docs
+include: [".nojekyll"]
 
 title: Your awesome title
 email: your-email@example.com
