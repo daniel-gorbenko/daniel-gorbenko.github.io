@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://daniel-gorbenko.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://daniel-gorbenko.github.io/" rel="alternate" type="text/html" /><updated>2022-07-04T21:13:59+03:00</updated><id>https://daniel-gorbenko.github.io/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Закончить наполовину сделанный интернет-магазин товаров для тенниса</title><link href="https://daniel-gorbenko.github.io/2021/12/02/zakonchit-napolovinu-sdelannij-internet-magazin-tovarov-dlja-tennisa.html" rel="alternate" type="text/html" title="Закончить наполовину сделанный интернет-магазин товаров для тенниса" /><published>2021-12-02T00:00:00+02:00</published><updated>2021-12-02T00:00:00+02:00</updated><id>https://daniel-gorbenko.github.io/2021/12/02/zakonchit-napolovinu-sdelannij-internet-magazin-tovarov-dlja-tennisa</id><content type="html" xml:base="https://daniel-gorbenko.github.io/2021/12/02/zakonchit-napolovinu-sdelannij-internet-magazin-tovarov-dlja-tennisa.html"><![CDATA[<p>Доработал <em>(но не сделал деплой и перенос базы)</em> незаконченный другим разработчиком интернет-магазин теннистых товаров <a href="https://dev.raketka.ua" target="_blank">dev.raketka.ua</a>. <em>Возможно сайт уже перенесен на основной адрес <a href="https://raketka.ua" target="_blank">raketka.ua</a> или <a href="https://raketka.kiev.ua" target="_blank">raketka.kiev.ua</a>.</em></p>
+
+<p>Магазин мнофункциональный. Там есть:</p>
+
+<ul>
+  <li>комплекты товаров</li>
+  <li>подарки</li>
+  <li>блог</li>
+  <li>ajax модалка корзины</li>
+  <li>отзывы о магазине</li>
+  <li>отзывы о товаре</li>
+  <li>фильтр товаров</li>
+  <li>бесплатная доставка</li>
+  <li>ajax поиск</li>
+  <li>специальные типы категорий</li>
+  <li>множество точек для обратного звонка.</li>
+</ul>
+
+<h2 id="багфиксинг">Багфиксинг</h2>
+
+<ul>
+  <li>Сортировка</li>
+  <li>Фильтр по цене</li>
+  <li>Бесплатная доставка</li>
+  <li>Купить в один клик</li>
+  <li>Баги во всей системе корзины</li>
+  <li>Изображения отзывов (морда и админка)</li>
+  <li>Приведение валадиции номера телефона к одному виду</li>
+  <li>Поправить многие сквозные блоки</li>
+  <li>Привести в соответствие к макетам</li>
+  <li>и многое другие.</li>
+</ul>
+
+<h2 id="индивидуальные-решения">Индивидуальные решения</h2>
+
+<ul>
+  <li><strong>Менеджер изображений</strong>. В админ панели, на странице редактирования продукта, был написан новый загрузчик изображений с Drag ann Drop (JQuery UI) и предварительным просмотром. Предварительный просмотр сделан с помощью загрузки изображений во временную папку на сервере, которая очищается по расписанию.</li>
+  <li><strong>Управление атрибутами</strong>. Было переделано управление атрибутами товаров в административной панели. Добавлены атрибуты к категориям, а на странице редактирования товара предлагаются рекомендуемые категорией данного товара атрибуты, которые можно просто добавить в список.</li>
+</ul>
+
+<h2 id="статус">Статус</h2>
+
+<p>На момент последней редакции этой записи проект еще не был запущен, но готовились к переезду.</p>]]></content><author><name></name></author><category term="поддержка" /><category term="интернет-магазин" /><category term="php" /><category term="sql" /><category term="shared hosting" /><category term="opencart" /><category term="opencart 2.3" /><category term="дебаг" /><category term="багфиксинг" /><category term="draganddrop" /><category term="preview" /><summary type="html"><![CDATA[Доработал (но не сделал деплой и перенос базы) незаконченный другим разработчиком интернет-магазин теннистых товаров dev.raketka.ua. Возможно сайт уже перенесен на основной адрес raketka.ua или raketka.kiev.ua.]]></summary></entry><entry><title type="html">Интернет-магазин детской обуви Обувная сказка</title><link href="https://daniel-gorbenko.github.io/2021/12/01/internet-magazin-detskoj-obuvi-obuvnaja-skazka.html" rel="alternate" type="text/html" title="Интернет-магазин детской обуви Обувная сказка" /><published>2021-12-01T00:00:00+02:00</published><updated>2021-12-01T00:00:00+02:00</updated><id>https://daniel-gorbenko.github.io/2021/12/01/internet-magazin-detskoj-obuvi-obuvnaja-skazka</id><content type="html" xml:base="https://daniel-gorbenko.github.io/2021/12/01/internet-magazin-detskoj-obuvi-obuvnaja-skazka.html"><![CDATA[<p>Имплементировал интернет-магазин детской обуви для Харьковского магазина детской обуви <a href="https://obuvnaia-skazka.ua" target="_blank">obuvnaia-skazka.ua</a>.</p>
+
+<p>Отдельное внимание хочу обратить на 1С синхронзацию.</p>
+
+<h2 id="сквозные-модульные-блоки">Сквозные модульные блоки</h2>
+
+<ul>
+  <li>Главный банер</li>
+  <li>Новинки</li>
+  <li>Скидки</li>
+  <li>Бренды</li>
+  <li>Контакты отделений с картами</li>
+  <li>Просмотренные товары</li>
+</ul>
+
+<h2 id="общий-функционал">Общий функционал</h2>
+
+<ul>
+  <li>Фильтр товаров</li>
+  <li>Мультиязычность</li>
+  <li>SEO-URL</li>
+</ul>
+
+<h2 id="индивидуальные-решения">Индивидуальные решения</h2>
+
+<ul>
+  <li><strong>1С импорт</strong>. Для импорта 1С был испробован готовый Open Source модуль для Opencart - он не работал с клиентом 1С версии заказчика. Плюс, как позже выяснилось, клиент 1С заказчика не следовал полностью стандарту <a href="https://v8.1c.ru/tekhnologii/obmen-dannymi-i-integratsiya/standarty-i-formaty/standarty-commerceml/commerceml-2/" target="_blank">CommerceML 2</a>. Было принято решение написаь свой модуль для синхронизации, который бы реализовал CommerceML 2 стандарт. Стандарт я изучил, но было принято решение купить готовый платный модуль.</li>
+  <li><strong>Пост-обработка 1С импорта</strong>. В связи с тем, что платный модуль 1С синхронизации - зашифрован, т.е. нет возможности внести изменения в его работу, пришлось написать скрипт для пост-обработки импорта. Суть пост-обработки: занести размеры из разных Размерных рядов товаров в один фильтр Размер, генерация seo-url, пропустить на сайт только Разрешенные атрибуты (в нужном порядке), пропустить на сайт только Разрешенные фильтры и в нужном порядке, обновление meta данных всех сущностей + лог работы скрипта.</li>
+</ul>
+
+<p><em>P.S. Скрипт пост-обработки получился довольно большим: ~900 строк.</em></p>]]></content><author><name></name></author><category term="имплементация" /><category term="с нуля" /><category term="интернет-магазин" /><category term="php" /><category term="sql" /><category term="shared hosting" /><category term="opencart" /><category term="opencart 2.3" /><category term="seo url" /><category term="мультиязычность" /><category term="1с" /><category term="импорт" /><category term="commerceml" /><category term="cron" /><category term="миграция базы данных" /><summary type="html"><![CDATA[Имплементировал интернет-магазин детской обуви для Харьковского магазина детской обуви obuvnaia-skazka.ua.]]></summary></entry><entry><title type="html">Поддержка интернет-магазина трюковых самокатов Scoot</title><link href="https://daniel-gorbenko.github.io/2021/10/13/podderzhka-internet-magazina-trjukovih-samokatov-scoot.html" rel="alternate" type="text/html" title="Поддержка интернет-магазина трюковых самокатов Scoot" /><published>2021-10-13T00:00:00+03:00</published><updated>2021-10-13T00:00:00+03:00</updated><id>https://daniel-gorbenko.github.io/2021/10/13/podderzhka-internet-magazina-trjukovih-samokatov-scoot</id><content type="html" xml:base="https://daniel-gorbenko.github.io/2021/10/13/podderzhka-internet-magazina-trjukovih-samokatov-scoot.html"><![CDATA[<p>Занимался доработкой и багфиксингом интернет-магазина трюковых самокатов <a href="https://scoot.com.ua" target="_blank">scoot.com.ua</a>.</p>
+
+<p>Отдельное внимание хочу обратить на модуль оплаты Monobank.</p>
+
+<h2 id="багфиксинг">Багфиксинг</h2>
+
+<ul>
+  <li>Модуль оплаты LiqPay</li>
+  <li>Модуль оплаты частями Приватбанк</li>
+  <li>Заказ в один клик</li>
+  <li>и другое.</li>
+</ul>
+
+<h2 id="сквозные-модульные-блоки">Сквозные модульные блоки</h2>
+
+<ul>
+  <li>Избранные категории на главной</li>
+  <li>Новинки и Акции</li>
+  <li>Топ товары категорий</li>
+</ul>
+
+<h2 id="платежные-методы">Платежные методы</h2>
+
+<ul>
+  <li><strong>Модуль оплаты частями Monobank</strong>. Написан с нуля модуль оплаты частями Монобанка для Opencart. Я написал как клиентскую (логику) так и серверную части. Модуль получился интерактивным. Модуль прошел все тесты в Монобанке, запущен, работает, были заказы. Как он выглядит можно <a href="https://scoot.com.ua" target="_blank">увидеть на сайте</a>, добавив в корзину товаров больше чем на 1000 грн <em>(на момент последней редакции этой записи)</em>, выбрав метод оплаты Монобанк и нажав Оформить заказ.</li>
+</ul>
+
+<h2 id="индивидуалньые-решения">Индивидуалньые решения</h2>
+
+<ul>
+  <li><strong>Микроразметка</strong>. Добавлена микроразметка <a href="https://schema.org" target="_blank">schema.org</a> на сайт.</li>
+  <li><strong>reCaptcha для комментариев товара</strong>. Добавлена каптча <a href="https://developers.google.com/recaptcha/docs/display" target="_blank">reCAPTCHA v2</a> для комментариев товара. Улучшена навигация в административной панели на странице комментария.</li>
+  <li><strong>Шаблоны для мета тегов</strong>. Добавлены шаблоны и логика для заполнения мета тегов.</li>
+</ul>
+
+<h2 id="административная-панель">Административная панель</h2>
+
+<ul>
+  <li><strong>Разграничение прав доступа</strong>. Расширил стандартные возможности Opencart, добавив скрытие элементов и запрет на действие для событий на основе текущей роли пользователя. Не универсальная вещь - чтобы добавить новый запрет или скрыть новый элемент для какой-то роли нужно писать код.</li>
+</ul>]]></content><author><name></name></author><category term="поддержка" /><category term="интернет-магазин" /><category term="php" /><category term="sql" /><category term="shared hosting" /><category term="opencart" /><category term="opencart 2.3" /><category term="дебаг" /><category term="багфиксинг" /><category term="платежные методы" /><category term="liqpay" /><category term="приватбанк" /><category term="monobank" /><category term="microdata" /><category term="captcha" /><summary type="html"><![CDATA[Занимался доработкой и багфиксингом интернет-магазина трюковых самокатов scoot.com.ua.]]></summary></entry><entry><title type="html">Доработать мультиязычность для сайта Treebax</title><link href="https://daniel-gorbenko.github.io/2021/10/12/dorabotat-multijazichnost-dlja-sajta-treebax.html" rel="alternate" type="text/html" title="Доработать мультиязычность для сайта Treebax" /><published>2021-10-12T00:00:00+03:00</published><updated>2021-10-12T00:00:00+03:00</updated><id>https://daniel-gorbenko.github.io/2021/10/12/dorabotat-multijazichnost-dlja-sajta-treebax</id><content type="html" xml:base="https://daniel-gorbenko.github.io/2021/10/12/dorabotat-multijazichnost-dlja-sajta-treebax.html"><![CDATA[<p>Для незавершеннго интернет-магазина <a href="https://treebax.com.ua" target="_blank">treebax.com.ua</a> необходимо было доработать мультиязычность. Сайт на индивидуальной (кастомной) сборке Opencart + изменения поверх этой сборки.</p>
+
+<h2 id="что-было-сделано">Что было сделано:</h2>
+
+<ul>
+  <li>переделал всю систему SEO URL</li>
+  <li>вынес выбранный язык из сессии в URL</li>
+  <li>поправил все модули, которые затрагивают эти изменения</li>
+  <li>вынес хардкод текст в языковые файлы</li>
+</ul>
+
+<p><em>P.S. №1 в дальнейшем, эта улучшенная система SEO URL использовалась во всех новых проектах</em></p>
+
+<p><em>P.S. №2 Сам проект был багованным, его недостаточно протестировали перед приемкой, поэтому потом со сдачей проекта возникли трудности. Не знаю его дальнейшую судьбу.</em></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Для незавершеннго интернет-магазина treebax.com.ua необходимо было доработать мультиязычность. Сайт на индивидуальной (кастомной) сборке Opencart + изменения поверх этой сборки.]]></summary></entry><entry><title type="html">Интернет магазин заглушек</title><link href="https://daniel-gorbenko.github.io/2021/09/13/internet-magazin-zaglushek.html" rel="alternate" type="text/html" title="Интернет магазин заглушек" /><published>2021-09-13T00:00:00+03:00</published><updated>2021-09-13T00:00:00+03:00</updated><id>https://daniel-gorbenko.github.io/2021/09/13/internet-magazin-zaglushek</id><content type="html" xml:base="https://daniel-gorbenko.github.io/2021/09/13/internet-magazin-zaglushek.html"><![CDATA[<p>Имплементировал интернет-магазин заглушек для производителя, завода заглушек  <a href="http://new.zaglushki.com" target="_blank">new.zaglushki.com</a>. <em>Возможно сайт уже перенесен на основной адрес <a href="http://zaglushki.com" target="_blank">zaglushki.com</a>.</em></p>
+
+<p>На данном проекте во всю использовались встроенные возможности Opencart и многие стандартные поля админ-панели были переделаны в мультиязычные. Сайт получился многофункциональным.</p>
+
+<h2 id="сквозные-модульные-блоки">Сквозные модульные блоки</h2>
+
+<ul>
+  <li>Популярные категории</li>
+  <li>Новинки</li>
+  <li>Статьи</li>
+</ul>
+
+<h2 id="общий-функционал">Общий функционал</h2>
+
+<ul>
+  <li>Мультиязычность работающая с ЧПУ и без ЧПУ.</li>
+  <li>Офисы и контакты отделений</li>
+  <li>Многоуровневые категории</li>
+  <li>Фильтр товаров</li>
+  <li>Поиск</li>
+  <li>SEO-URL</li>
+  <li>Использование скидок (Discounts)</li>
+</ul>
+
+<h2 id="индивидуальные-решения">Индивидуальные решения</h2>
+
+<ul>
+  <li><strong>Варианты продуктов</strong>. Переключение между вариантами на клиентской стороне + пересчет стоимости при просмотре как Оптовик.</li>
+  <li><strong>Разные типы покупателей (Розница и Опт)</strong>. Влияет на вид  отображения продуктов в категориях.</li>
+  <li><strong>Блог</strong>. Категории, Статьи и модуль избранных/популярных статей.</li>
+  <li><strong>Водяной знак</strong>. На PHP был написан скрипт для наложения водяного знака. Возможность задать настройки: равзмеры водяного знака, сдвиги, расстояние, изображение.</li>
+  <li><strong>Импорт и Экспорт Exel</strong>. Импорт товаров и категорий в/из Exel формат. Использовался OpenSource модуль для Opencart. Необохдимо было внести индивидуальные особенности магазина в модуль.</li>
+</ul>
+
+<h2 id="статус">Статус</h2>
+
+<p>На момент последней редакции этой записи проект еще не был запущен.</p>]]></content><author><name></name></author><category term="имплементация" /><category term="с нуля" /><category term="интернет-магазин" /><category term="php" /><category term="sql" /><category term="shared hosting" /><category term="opencart" /><category term="opencart 2.3" /><category term="seo url" /><category term="мультиязычность" /><category term="варианты товаров" /><category term="блог" /><category term="водяной знак" /><category term="импорт" /><category term="экспорт" /><summary type="html"><![CDATA[Имплементировал интернет-магазин заглушек для производителя, завода заглушек new.zaglushki.com. Возможно сайт уже перенесен на основной адрес zaglushki.com.]]></summary></entry><entry><title type="html">Имплементация сайта фестиваля</title><link href="https://daniel-gorbenko.github.io/2021/06/24/implementacija-sajta-festivalja.html" rel="alternate" type="text/html" title="Имплементация сайта фестиваля" /><published>2021-06-24T00:00:00+03:00</published><updated>2021-06-24T00:00:00+03:00</updated><id>https://daniel-gorbenko.github.io/2021/06/24/implementacija-sajta-festivalja</id><content type="html" xml:base="https://daniel-gorbenko.github.io/2021/06/24/implementacija-sajta-festivalja.html"><![CDATA[<p>Имплементировал (не с нуля) корпоративный сайт для Украинского фестиваля <a href="https://zkvu.com.ua/" target="_blank">zkvu.com.ua</a>. Ничего примечательного, просто один из проектов.</p>
+
+<p>Все, что использовалось на этом проекте, это:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Wordpress</code></li>
+  <li>Плагин <code class="language-plaintext highlighter-rouge">Advanced Custom Fields</code></li>
+  <li>имплементация (создание из статичной верстки темы для Wordpress)</li>
+</ul>]]></content><author><name></name></author><category term="имплементация" /><category term="корпоративный" /><category term="wordpress" /><category term="acf" /><category term="php" /><category term="sql" /><category term="shared hosting" /><summary type="html"><![CDATA[Имплементировал (не с нуля) корпоративный сайт для Украинского фестиваля zkvu.com.ua. Ничего примечательного, просто один из проектов.]]></summary></entry><entry><title type="html">Добавить мультиязычность большому самописному интернет-магазину косметики Tiande</title><link href="https://daniel-gorbenko.github.io/2021/06/03/dobavit-multijazichnost-bolshomu-samopisnomu-internet-magazinu-kosmetiki-tiande.html" rel="alternate" type="text/html" title="Добавить мультиязычность большому самописному интернет-магазину косметики Tiande" /><published>2021-06-03T00:00:00+03:00</published><updated>2021-06-03T00:00:00+03:00</updated><id>https://daniel-gorbenko.github.io/2021/06/03/dobavit-multijazichnost-bolshomu-samopisnomu-internet-magazinu-kosmetiki-tiande</id><content type="html" xml:base="https://daniel-gorbenko.github.io/2021/06/03/dobavit-multijazichnost-bolshomu-samopisnomu-internet-magazinu-kosmetiki-tiande.html"><![CDATA[<p>Для крупного (по крайней мере технически крупного) <ins>самописного</ins> интернет-магазина <a href="https://tiande-shop.com.ua/" target="_blank">Tiande</a> была добавлена мультиязычность.</p>
+
+<h2 id="дебаг">Дебаг</h2>
+
+<p>Проделал большую работe по определнию структуры сайта, определению связей между модулями системы. Сайт не использовал никакой фреймоврк, но следовал MVC.</p>
+
+<h2 id="о-размере-проекта">О размере проекта</h2>
+
+<p>На сайте есть очереди email рассылок, интегрированы смс уведомления, на сайте есть морфологический поиск работающий через Sphinx, все таблицы базы данных не были рассчитаны на мультиязычность, все модели и поля редактирования не были рассчитаны на мультиязычность, фильтры и изображения также не были мультиязычными, в шаблонах был хардкод текст на одном языке, и в конечном итоге даже обьем текста, который необходимо было перевести был огромным.</p>
+
+<p><em>P.S. все же начатки мультиязычности были, на что-то можно было опираться.</em></p>
+
+<h2 id="решение">Решение</h2>
+
+<ol>
+  <li>Были переделаны большинство (~80) таблиц базы данных, добавлены таблицы.</li>
+  <li>Добавлен выбор языка на сайте для покупателей, настроено сохранение выбранного языка в сессии.</li>
+  <li>Весь хардкод текст был вынесен в языковые файлы, добавлено авто-встраивание языковых значений в шаблоны.
+    <ol>
+      <li>Повторяющиеся элементы верстки были сделаны компонентами.</li>
+    </ol>
+  </li>
+  <li>Переделаны формы просмотра/редактирования многих сущностей в административной панели</li>
+  <li>Так как сайт работал на выделенном сервере и многие службы, такие как cron или Sphinx были запущены в фоне, в автозагрузке и к ним не было никакой документации, то пришлось разобраться со Sphinx и определить нужные процессы.</li>
+  <li>Проделанная работа была протестирована вручную.</li>
+  <li>Все старые товары были продублировны на нужные языки.</li>
+</ol>]]></content><author><name></name></author><category term="мультиязычность" /><category term="самопис" /><category term="интернет-магазин" /><category term="поддержка" /><category term="дебаг" /><category term="багфиксинг" /><category term="php" /><category term="sql" /><category term="vps" /><category term="mvc" /><category term="cron" /><summary type="html"><![CDATA[Для крупного (по крайней мере технически крупного) самописного интернет-магазина Tiande была добавлена мультиязычность.]]></summary></entry><entry><title type="html">Интернет-магазин детского издательства Вакоша</title><link href="https://daniel-gorbenko.github.io/2021/04/22/internet-magazin-detskogo-izdatelstva-vakosha.html" rel="alternate" type="text/html" title="Интернет-магазин детского издательства Вакоша" /><published>2021-04-22T00:00:00+03:00</published><updated>2021-04-22T00:00:00+03:00</updated><id>https://daniel-gorbenko.github.io/2021/04/22/internet-magazin-detskogo-izdatelstva-vakosha</id><content type="html" xml:base="https://daniel-gorbenko.github.io/2021/04/22/internet-magazin-detskogo-izdatelstva-vakosha.html"><![CDATA[<p>Для <a href="https://vacosha.ru/" target="_blank">магазина Вакоша</a> сделана синхронизация каталога товаров и интегрировано оформление заказа через Myshop.</p>
+
+<h2 id="импорт">Импорт</h2>
+
+<p>Сделано автоматическое обновление каталога товаров сайта с помощью импорта товаров этого же производителя с маркетплейса MyShop по расписанию. Сделано это с помощью PHP срипта с  SQL запросами, API MyShop, и CRON задачи.</p>
+
+<h2 id="интеграция-оформления-заказа-через-myshop">Интеграция оформления заказа через MyShop</h2>
+
+<p>Javascript SDK предоставляется MyShop, его необходимо подключить, настроить и подготовить на своем сервере нужные <code class="language-plaintext highlighter-rouge">api endpoints</code>.</p>
+
+<p>Посмотреть на результат работы можно добавив товар в корзину на сайте <a href="https://vacosha.ru/" target="_blank">Вакоша</a> и перейти на страницу оформления заказа (не корзины).</p>]]></content><author><name></name></author><category term="интеграция" /><category term="синхронизация" /><category term="импорт" /><category term="интернет-магазин" /><category term="поддержка" /><category term="php" /><category term="sql" /><category term="shared hosting" /><category term="opencart" /><category term="opencart 2.3" /><category term="myshop" /><category term="yml" /><category term="yandex" /><category term="api" /><category term="фиды" /><summary type="html"><![CDATA[Для магазина Вакоша сделана синхронизация каталога товаров и интегрировано оформление заказа через Myshop.]]></summary></entry><entry><title type="html">Интернет-магазин одежды Onemoda</title><link href="https://daniel-gorbenko.github.io/2021/03/17/internet-magazin-odezhdi-onemoda.html" rel="alternate" type="text/html" title="Интернет-магазин одежды Onemoda" /><published>2021-03-17T00:00:00+02:00</published><updated>2021-03-17T00:00:00+02:00</updated><id>https://daniel-gorbenko.github.io/2021/03/17/internet-magazin-odezhdi-onemoda</id><content type="html" xml:base="https://daniel-gorbenko.github.io/2021/03/17/internet-magazin-odezhdi-onemoda.html"><![CDATA[<p>Имплементировал интернет-магазин одежды для американского рынка <a href="https://onemoda.com" target="_blank">onemoda.com</a>.</p>
+
+<h2 id="сквозные-модульные-блоки">Сквозные модульные блоки</h2>
+
+<ul>
+  <li>Главный банер</li>
+  <li>Мужской/Женский банер</li>
+  <li>Бренды</li>
+  <li>Новинки</li>
+  <li>Категории</li>
+  <li>Бестселлеры</li>
+  <li>Топ категории</li>
+  <li>Недавно просмотренные</li>
+  <li>Связанные товары</li>
+</ul>
+
+<p><em>P.S. Для автоматического заполнения мозайки с изображениями на странице топ-категорий потребовалось решить <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0_%D0%BE_%D1%80%D1%8E%D0%BA%D0%B7%D0%B0%D0%BA%D0%B5" target="_blank">задачу о ранце(рюкзаке)</a>. Решил с помощью полного перебора.</em></p>
+
+<h2 id="общий-функционал">Общий функционал</h2>
+
+<ul>
+  <li>Многоуровневые категории</li>
+  <li>Фильтр товаров</li>
+  <li>Поиск и AJAX поиск продуктов</li>
+  <li>Мультиязычность</li>
+  <li>SEO-URL</li>
+</ul>
+
+<h2 id="платежные-методы">Платежные методы</h2>
+
+<ul>
+  <li><strong>Stripe (Apple Pay)</strong>. Был написан модуль оплаты Stripe для Opencart 2.3.* с использованием <a href="https://stripe.com/docs/api" target="_blank">PHP SDK от Stripe</a>. Учтены налоги для опредленного штата и примененные покупателем купоны.</li>
+  <li><strong>Amazon Pay</strong>. Доведен до ума стандартный для Opencart 2.3.*, не рабочий из коробки, модуль для оплаты Amazon Pay.</li>
+  <li><strong>PayPal</strong>. Включен, рабочий из коробки, модуль для оплаты PayPal.</li>
+  <li><strong>Affirm</strong>. Настроен модуль оплаты с помощью кредитного инструмента Affirm. Этот модуль поставляется самим Affirm, но имеет отличающийся от сайта дизайн и его пришлось немного допилить для нормальной работы.</li>
+</ul>
+
+<h2 id="фиды">Фиды</h2>
+
+<ul>
+  <li><strong>Google Merchant Center</strong>. Выгрузка товаров и вариантов товаров в фид для Google Merchant по расписанию. Процесс создания фида разбит на части для надежности и сохранения одинакового времени выполнения cron скрипта независимо от количества товаров на сайте.</li>
+  <li><strong>Facebook data feed</strong>. Выгрузка товаров и вариантов товаров в фид для Facebook по расписанию. Процесс создания фида разбит на части для надежности и сохранения одинакового времени выполнения cron скрипта независимо от количества товаров на сайте.</li>
+</ul>
+
+<h2 id="индивидуальные-решения">Индивидуальные решения</h2>
+
+<ul>
+  <li><strong>Гибкая система купонов</strong>. Добавлена возможность устанавливать скидочные купоны на производителей.</li>
+  <li><strong>Wishlist (Список желаний)</strong>. На карточке товара выводится у какого количества авторизованных на сайте пользователей данный продукт сейчас находится в списке желаний.</li>
+</ul>
+
+<h2 id="административная-панель">Административная панель</h2>
+
+<p>Стандартная панель управления Opencart 2.3 была переделана под требования заказчика: скрыты многие неиспользуемые на данном проекте элементы, добавленные жизнено необходимые элементы, которых нет из коробки, добавлена автогенерация seo url и многое другое.</p>
+
+<h2 id="база-данных">База данных</h2>
+
+<p>Выполнен перенос продуктов со старого сайта в новую базу данных.</p>
+
+<h2 id="аналитика">Аналитика</h2>
+
+<p>Добавлены различные аналитики: Facebook Track, Google Analytics, Google Adwords.</p>]]></content><author><name></name></author><category term="имплементация" /><category term="с нуля" /><category term="интернет-магазин" /><category term="php" /><category term="sql" /><category term="shared hosting" /><category term="opencart" /><category term="opencart 2.3" /><category term="платежные методы" /><category term="stripe" /><category term="apple pay" /><category term="amazon pay" /><category term="paypal" /><category term="affirm" /><category term="фиды" /><category term="google merchant center" /><category term="facebook data feed" /><category term="миграция базы данных" /><category term="seo url" /><category term="купоны" /><category term="wishlist" /><category term="экспорт" /><summary type="html"><![CDATA[Имплементировал интернет-магазин одежды для американского рынка onemoda.com.]]></summary></entry></feed>
