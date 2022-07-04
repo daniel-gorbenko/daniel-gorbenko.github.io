@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Доработать мультиязычность для сайта Treebax</title>
+
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="container">
+				<div class="inner">
+					<a class="logo_header" href="/">Джоник</a>
+					
+					<span class="link_back_container"><span>🠐</span><a class="link_back" href="/">На главную</a></span>
+					
+				</div>
+			</div>
+		</header>
+
+		<main class="article">
+	<div class="container">
+		<div class="inner">
+			<h1>Доработать мультиязычность для сайта Treebax</h1>
+
+			
+			
+
+			<div class="address">12 октября 2021  -  Украина, Харьков</div>
+
+			<p>Для незавершеннго интернет-магазина <a href="https://treebax.com.ua" target="_blank">treebax.com.ua</a> необходимо было доработать мультиязычность. Сайт на индивидуальной (кастомной) сборке Opencart + изменения поверх этой сборки.</p>
+
+<h2 id="что-было-сделано">Что было сделано:</h2>
+
+<ul>
+  <li>переделал всю систему SEO URL</li>
+  <li>вынес выбранный язык из сессии в URL</li>
+  <li>поправил все модули, которые затрагивают эти изменения</li>
+  <li>вынес хардкод текст в языковые файлы</li>
+</ul>
+
+<p><em>P.S. №1 в дальнейшем, эта улучшенная система SEO URL использовалась во всех новых проектах</em></p>
+
+<p><em>P.S. №2 Сам проект был багованным, его недостаточно протестировали перед приемкой, поэтому потом со сдачей проекта возникли трудности. Не знаю его дальнейшую судьбу.</em></p>
+
+		</div>
+	</div>
+</main>
+
+		<footer>
+			<div class="container">
+				<div class="inner">
+					<a class="logo_footer" href="#">Джоник</a>
+
+					<div class="footer_hr"></div>
+
+					<div class="footer_author">
+						Горбенко Данил Евгениевич<br/>Мой адрес электронной почты: <a class="js-footer_email footer_email" href="#">показать</a><span class="js-place_for_email"></span>
+					</div>
+
+					<ul class="footer_menu">
+						<li class=""><a href="/index.html">Главная</a></li>
+						<li class=""><a href="/keywords.html">Ключевые слова</a></li>
+						<li><a href="/sitemap.xml">Карта сайта</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script>
+		(function () {
+			let email = document.querySelector('.js-footer_email');
+			let placeForEmail = document.querySelector('.js-place_for_email');
+
+			email.addEventListener('click', onEmailClick);
+
+			function onEmailClick(e) {
+				e.preventDefault();
+
+				email.remove();
+				placeForEmail.innerHTML = atob('ZGFuaWVsLmdvcmJlbmtvLnByaXZhdGVAZ21haWwuY29t');
+			}
+		})();
+	</script>
+</body>
+</html>

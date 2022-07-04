@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Интернет-магазин детского издательства Вакоша</title>
+
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="container">
+				<div class="inner">
+					<a class="logo_header" href="/">Джоник</a>
+					
+					<span class="link_back_container"><span>🠐</span><a class="link_back" href="/">На главную</a></span>
+					
+				</div>
+			</div>
+		</header>
+
+		<main class="article">
+	<div class="container">
+		<div class="inner">
+			<h1>Интернет-магазин детского издательства Вакоша</h1>
+
+			
+			
+
+			<div class="address">22 апреля 2021  -  Украина, Харьков</div>
+
+			<p>Для <a href="https://vacosha.ru/" target="_blank">магазина Вакоша</a> сделана синхронизация каталога товаров и интегрировано оформление заказа через Myshop.</p>
+
+<h2 id="импорт">Импорт</h2>
+
+<p>Сделано автоматическое обновление каталога товаров сайта с помощью импорта товаров этого же производителя с маркетплейса MyShop по расписанию. Сделано это с помощью PHP срипта с  SQL запросами, API MyShop, и CRON задачи.</p>
+
+<h2 id="интеграция-оформления-заказа-через-myshop">Интеграция оформления заказа через MyShop</h2>
+
+<p>Javascript SDK предоставляется MyShop, его необходимо подключить, настроить и подготовить на своем сервере нужные <code class="language-plaintext highlighter-rouge">api endpoints</code>.</p>
+
+<p>Посмотреть на результат работы можно добавив товар в корзину на сайте <a href="https://vacosha.ru/" target="_blank">Вакоша</a> и перейти на страницу оформления заказа (не корзины).</p>
+
+		</div>
+	</div>
+</main>
+
+		<footer>
+			<div class="container">
+				<div class="inner">
+					<a class="logo_footer" href="#">Джоник</a>
+
+					<div class="footer_hr"></div>
+
+					<div class="footer_author">
+						Горбенко Данил Евгениевич<br/>Мой адрес электронной почты: <a class="js-footer_email footer_email" href="#">показать</a><span class="js-place_for_email"></span>
+					</div>
+
+					<ul class="footer_menu">
+						<li class=""><a href="/index.html">Главная</a></li>
+						<li class=""><a href="/keywords.html">Ключевые слова</a></li>
+						<li><a href="/sitemap.xml">Карта сайта</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script>
+		(function () {
+			let email = document.querySelector('.js-footer_email');
+			let placeForEmail = document.querySelector('.js-place_for_email');
+
+			email.addEventListener('click', onEmailClick);
+
+			function onEmailClick(e) {
+				e.preventDefault();
+
+				email.remove();
+				placeForEmail.innerHTML = atob('ZGFuaWVsLmdvcmJlbmtvLnByaXZhdGVAZ21haWwuY29t');
+			}
+		})();
+	</script>
+</body>
+</html>
