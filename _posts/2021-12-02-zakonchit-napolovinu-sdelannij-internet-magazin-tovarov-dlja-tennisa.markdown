@@ -13,6 +13,7 @@ tags:
 - багфиксинг
 - draganddrop
 - preview
+- портфолио
 location: "Украина, Харьков"
 ---
 

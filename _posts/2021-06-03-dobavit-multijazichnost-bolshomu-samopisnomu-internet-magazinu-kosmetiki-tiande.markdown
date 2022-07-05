@@ -13,6 +13,7 @@ tags:
 - vps
 - mvc
 - cron
+- портфолио
 location: "Украина, Харьков"
 ---
 

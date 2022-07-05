@@ -168,6 +168,13 @@ ul.list_posts li {
 	margin: 0 11px;
 }
 
+.list_posts-link_type {
+	color: #4D5156;
+    font-size: 16px;
+    margin-right: 5px;
+    line-height: 16px;
+}
+
 .list_posts-link {
 	font-size: 16px;
 	line-height: 22px;
@@ -211,10 +218,6 @@ ul.list_posts li {
 	margin-top: 16px;
 	margin-bottom: 14px;
 	color: #70757A;
-}
-
-a[target="_blank"] {
-	display: inline-block;
 }
 
 a[target="_blank"]::after {
