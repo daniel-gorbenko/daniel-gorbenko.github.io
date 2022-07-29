@@ -44,4 +44,4 @@ bundle exec jekyll serve
 не хочу заморачиваться. По той же причине здесь присутствует файл `.nojekyll`, это чтобы
 Github Pages просто сёрвили содержимое `/docs` папки, а не делали jekyll билды.
 
-// autocrlf test - must be deleted. Test 2
+// autocrlf test - must be deleted. Test 3
