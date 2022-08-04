@@ -1,14 +1,39 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru_UA">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<title>{{ page.title }}</title>
+	{% if layout.type == "home" %}
+	<title>{{ site.name }}</title>
+	{% endif %}
+	
+	{% if layout.type == "post" or layout.type == "page" %}
+	<title>{{ page.meta_title }} | {{ site.name }}</title>
+	{% endif %}
+
+	<meta name="description" content="{{ page.meta_description }}">
 
 	<link rel="shortcut icon" href="/assets/img/favicon.ico">
-	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="stylesheet" href="/assets/css/style.css?v=04082022">
+
+	<!-- OPEN GRAPH разметка -->
+	<meta property="og:title" content="{{ page.meta_title }} | {{ site.name }}" />
+	<meta property="og:description" content="{{ page.meta_description }}" />
+
+	{% if layout.type == "home" or layout.type == "page" %}
+	<meta property="og:type" content="website" />
+	{% endif %}
+
+	{% if layout.type == "post" %}
+	<meta property="og:type" content="article" />
+	<meta property="article:published_time" content="{{ page.date | date: "%FT%T%:z" }}" />
+	<meta property="article:modified_time" content="{{ page.date | date: "%FT%T%:z" }}" />
+	{% endif %}
+	
+	<meta property="og:locale" content="ru_UA" />
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-24D4GTGZP5"></script>

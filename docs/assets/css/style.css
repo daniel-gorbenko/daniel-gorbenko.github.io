@@ -285,6 +285,20 @@ a[target="_blank"]::after {
     font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
 }
 
+.article blockquote {
+	margin-top: 16px;
+	border-left: 4px solid;
+	padding: 1rem 2rem;
+}
+
+.article blockquote p {
+	margin-top: 0;
+}
+
+.article img {
+	max-width: 100%;
+}
+
 /* FOOTER */
 
 footer {

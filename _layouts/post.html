@@ -1,5 +1,6 @@
 ---
 layout: default
+type: post
 ---
 
 <main class="article">
@@ -10,7 +11,7 @@ layout: default
 			{% assign m = page.date | date: "%m" | abs %}
 			{% assign month = m | minus: 1 %}
 
-			<div class="address">{{ page.date | date: "%-d" }} {{ site.data.months[month].name | downcase }} {{ page.date | date: "%Y" }}  -  {{ page.location }}</div>
+			<div class="address">{{ page.date | date: "%-d" }} {{ site.data.months[month].name | downcase }} {{ page.date | date: "%Y" }} года  -  {{ page.location }}</div>
 
 			{{ content }}
 		</div>
