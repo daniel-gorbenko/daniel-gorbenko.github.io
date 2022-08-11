@@ -65,6 +65,19 @@ type: home
 				{% endif %}
 				{% endfor %}
 			</ul>
+
+			<h2 class="page-h2">Понравившиеся статьи от других авторов</h2>
+
+			<ul class="list_posts">
+				{% for like in site.data.like_posts %}
+				<li>
+					<!-- <span class="list_posts-date">{{ like.date | date: "%d.%m.%Y" }}</span> -->
+					<!-- <span class="list_posts-delimeter">-</span> -->
+					<!-- <span class="list_posts-link_type">{{ like.type }}:</span> -->
+					<a rel="nofollow" target="_blank" class="list_posts-link" href="{{ like.url }}">{{ like.name }}</a>
+				</li>
+			{% endfor %}
+			</ul>
 			
 		</div>
 	</div>
